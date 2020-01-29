@@ -9,6 +9,11 @@ public class Student {
 
   }
 
+  public Student(long id, String name) {
+    id = id;
+    name = name;
+  }
+
   public long getId(){
     return id;
   }
