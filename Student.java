@@ -30,4 +30,8 @@ public class Student {
     return "id="+String.valueOf(id)+", name="+name;
   }
 
+  public static void main(){
+    System.out.println("hello student");
+  }
+
 }
