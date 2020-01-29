@@ -25,5 +25,9 @@ public class Student {
     name = name;
   }
 
+  @Override
+  public String toString(){
+    return "id="+String.valueOf(id)+", name="+name;
+  }
 
 }
